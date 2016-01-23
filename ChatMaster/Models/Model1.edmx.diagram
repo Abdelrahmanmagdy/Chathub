@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59f2d6ee9317434cb0984746dcc4b6b1" Name="Diagram1">
+        <EntityTypeShape EntityType="ChatHubModel.ChatDetail" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChatHubModel.ChatMaster" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChatHubModel.User" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="ChatHubModel.FK_ChatDetails_ChatMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="ChatHubModel.FK_ChatDetails_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ChatHubModel.FK_ChatDetails_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChatHubModel.FK_ChatMaster_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ChatHubModel.FK_ChatMaster_Users1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
